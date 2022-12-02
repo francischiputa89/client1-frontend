@@ -1,0 +1,95 @@
+
+.main{
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.grid{
+    display: flex;
+    margin-left: 0px;
+    top: 12rem;
+    margin-top: 5rem;
+}
+.cards{
+    height: 330px;
+    width: 430px;
+    color: white;
+    background-color: rgba(20, 20, 20, 0.99);
+    margin: 3rem;
+    margin-top: 0px;
+}
+.cards:hover{
+    background-color: #ee550e;
+    transform: scale(1.1);
+    transition: 0.7s;
+    
+}
+
+.container-fluid{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ee550e;
+    height:fit-content;
+    width: 20rem;
+    margin-left: 0px;
+    padding-left: 3rem;
+    color: #111;
+    
+    padding-top: 0px;
+     
+}
+.options{
+    display: flex;
+    margin-top: 4rem;
+    color: #111;
+    
+
+
+}
+.options:hover{
+    color: white;
+    border-radius: 1%;
+    border-bottom: solid rgba(255, 253, 253, 0.733);
+    margin-left: 20px;
+    transition: 0.7s;
+    transition-duration: 200ms;
+
+}
+
+
+.options-icons{
+    margin-right: 2rem;
+    height: 25px;
+    width: 25px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+} 
+
+.svg{
+    fill: #fff;
+    height: 190px;
+    width: 190px;
+    margin-left: 7rem;
+}
+h1{
+    padding-top: 3rem;
+    padding-left: 7rem;
+}
+#dashboard-active{
+    color: white;
+    border-radius: 1%;
+    border-bottom: solid rgba(255, 253, 253, 0.733);
+    margin-left: 30px;
+}
+
+
+
+

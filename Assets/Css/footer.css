@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ee550e;
+    height: 5rem;
+    
+}
+small{
+    top: 6rem;
+    margin-top: 6rem;
+    font-weight: bold;
+}
