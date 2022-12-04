@@ -1,10 +1,11 @@
 <?php
 // setting up connection variables
-$servername = "sql7.freemysqlhosting.net";
-$username = "sql7582323";
-$password = "hhfpwT6Z6h";
-$dbname = "sql7582323";
-$port   = "3306";
+
+$servername = "containers-us-west-142.railway.app";
+$username = "root";
+$password = "aABWbpqM6J7izTO16hVR";
+$dbname = "railway";
+$port   = "6508";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
